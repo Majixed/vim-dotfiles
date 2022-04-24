@@ -103,7 +103,7 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 " PLUGINS ---------------------------------------------------------------- {{{
 
 " Vim-pathogen ---------------------------------------- {{{
-runtime bundle/vim-pathogen.git/autoload/pathogen.vim
+runtime autoload/pathogen.vim
 execute pathogen#infect()
 " }}}
 
