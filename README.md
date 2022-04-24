@@ -19,7 +19,7 @@ Feel free to open an issue if you have any suggestions.
 ## Screenshots
 
 Here is a screenshot of Vim running on an iPad with the [tokyonight-vim](https://github.com/ghifarit53/tokyonight-vim) color scheme, along with the JetBrainsMono Nerd Font from [nerd-fonts](https://github.com/ryanoasis/nerd-fonts)
-![screenshot](https://github.com/Majixed/vim-dotfiles/screenshot.jpg)
+![screenshot](https://github.com/Majixed/vim-dotfiles/blob/main/screenshot.jpg)
 
 ## Links to repositories
 
