@@ -8,7 +8,7 @@ First, clone this repository into your home directory,
 ```bash
 git clone https://github.com/Majixed/vim-dotfiles
 ```
-If you use libgit2 on a-Shell for iOS,
+If you use `lg2` on a-Shell for iOS,
 ```bash
 lg2 clone https://github.com/Majixed/vim-dotfiles
 ```
@@ -28,7 +28,7 @@ echo "runtime vimrc" > ~/.vimrc
 ```
 As before, don't forget to backup your current `.vimrc` file before running this command, if you have one. You may replace `~/` with the path of your home directory. Alternatively you can move the `vimrc` file from the new `.vim` directory into your home directory and rename it to `.vimrc`.
 
-Feel free to open an issue if you have any suggestions.
+Feel free to open an issue if you have any questions or suggestions.
 
 ## Screenshots
 
