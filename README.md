@@ -44,4 +44,5 @@ Here is a screenshot of Vim running on an iPad with my configuration, and the [t
 * [vim-startify](https://github.com/mhinz/vim-startify)
 * [nerdtree](https://github.com/preservim/nerdtree)
 * [python-syntax](https://github.com/hdima/python-syntax)
+* [colors.vim](https://github.com/utensils/colors.vim)
 * [awesome-vim-colorschemes](https://github.com/rafi/awesome-vim-colorschemes)
