@@ -1,6 +1,6 @@
 # Majixed's Vim dotfiles
 
-This is a collection of my Vim configuration files. I use these with Vim on the a-Shell terminal emulator for iOS and iPadOS. While its speed when compared to other such emulators is remarkable, it lacks quite a few tools that you would normally find on a regular terminal, such as `git`. As `git` is a prerequisite of the more advanced plug-in managers like vim-plug, I resorted to using vim-pathogen, a simple but effective runtime path manager, for managing my plug-ins, along with libgit2 for cloning the plug-in repositories. See the links at the end of the README for more information on the plug-ins I use.
+This is a collection of my Vim configuration files. I use these with Vim on the a-Shell terminal emulator for iOS and iPadOS. While its speed when compared to other such emulators is remarkable, it lacks quite a few tools that you would normally find on a regular terminal, such as `git`. As `git` is a prerequisite of the more advanced plug-in managers like vim-plug, I resorted to using vim-pathogen, a simple but effective runtime path manager, for managing my plug-ins, along with `lg2`, a built in alternative to `git` made with libgit2, for cloning the plug-in repositories. See the links at the end of the README for more information on the plug-ins I use.
 
 ## How to use
 
@@ -8,7 +8,7 @@ First, clone this repository into your home directory,
 ```bash
 git clone https://github.com/Majixed/vim-dotfiles
 ```
-If you use libgit2 like I do,
+If you use libgit2 on a-Shell for iOS,
 ```bash
 lg2 clone https://github.com/Majixed/vim-dotfiles
 ```
