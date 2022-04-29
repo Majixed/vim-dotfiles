@@ -148,7 +148,7 @@ autocmd VimEnter *
 let g:airline#extensions#tabline#enabled = 1
 " let g:airline#extensions#whitespace#enabled = 0
 let g:airline_powerline_fonts = 1
-let g:airline_theme = 'tokyonight'
+let g:airline_theme = 'base16_horizon_dark'
 " }}}
 
 " NERDTree -------------------------------------------- {{{
@@ -207,6 +207,6 @@ set laststatus=2
 " COLORS ----------------------------------------------------------------- {{{
 
 " Color scheme is loaded at the end to prevent unexpected issues.
-colorscheme tokyonight
+colorscheme horizon
 
 " }}}
