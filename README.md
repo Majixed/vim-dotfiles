@@ -38,6 +38,7 @@ Here is a screenshot of Vim running on an iPad with my configuration, and the [t
 ## Plug-in repositories
 
 * [vim-pathogen](https://github.com/tpope/vim-pathogen)
+* [vim-fugitive](https://github.com/tpope/vim-fugitive)
 * [vim-airline](https://github.com/vim-airline/vim-airline)
 * [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)
 * [vim-devicons](https://github.com/ryanoasis/vim-devicons)
