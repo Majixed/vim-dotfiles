@@ -206,10 +206,16 @@ set laststatus=2
 
 " COLORS ----------------------------------------------------------------- {{{
 
+" Deus color scheme setup
+let g:deus_underline = 1
+let g:deus_italic = 1
+let g:deus_italicize_comments = 1
+let g:deus_italicize_strings = 1
+
 " Nord color scheme setup
+let g:nord_underline = 1
 let g:nord_italic = 1
 let g:nord_italic_comments = 1
-let g:nord_underline = 1
 
 " Color scheme is loaded at the end to prevent unexpected issues.
 colorscheme nord
