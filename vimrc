@@ -148,7 +148,7 @@ autocmd VimEnter *
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#whitespace#enabled = 0
 let g:airline_powerline_fonts = 1
-let g:airline_theme = 'nord'
+let g:airline_theme = 'tokyonight'
 " }}}
 
 " NERDTree -------------------------------------------- {{{
@@ -217,7 +217,10 @@ let g:nord_underline = 1
 let g:nord_italic = 1
 let g:nord_italic_comments = 1
 
+" Tokyo Night color scheme setup
+let g:tokyonight_style = 'night'
+
 " Color scheme is loaded at the end to prevent unexpected issues.
-colorscheme nord
+colorscheme tokyonight
 
 " }}}
