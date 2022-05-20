@@ -18,7 +18,7 @@ If you use ``lg2`` on a-Shell for iOS:
 
     lg2 clone https://github.com/Majixed/vim-dotfiles
 
-Then rename it to ``.vim``,
+Then rename it to ``.vim``:
 
 .. code:: sh
 
