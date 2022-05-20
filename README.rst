@@ -6,30 +6,36 @@ This is a collection of my Vim configuration files. I use these with Vim on the 
 How to use
 ----------
 
-First, clone this repository into your home directory,
+First, clone this repository into your home directory:
 
 .. code:: sh
+
     git clone https://github.com/Majixed/vim-dotfiles
 
-If you use ``lg2`` on a-Shell for iOS,
+If you use ``lg2`` on a-Shell for iOS:
 
 .. code:: sh
+
     lg2 clone https://github.com/Majixed/vim-dotfiles
 
 Then rename it to ``.vim``,
 
 .. code:: sh
+
     mv vim-dotfiles .vim
 
 If you already have a pre-existing configuration in your ``.vim`` directory, you may want to rename it to something else before running this command. If you don't, just remove it, then run this command.
 
-Next, create your ``.vimrc`` file in your home directory containing only this line,
+Next, create your ``.vimrc`` file in your home directory containing only this line:
 
 .. code:: vim
+
     runtime vimrc
 
-For example, you can do,
+For example, you can do:
+
 .. code:: sh
+
     echo "runtime vimrc" > ~/.vimrc
 
 As before, don't forget to backup your current ``.vimrc`` file before running this command, if you have one. You may replace ``~/`` with the path of your home directory. Alternatively you can move the ``vimrc`` file from the new ``.vim`` directory into your home directory and rename it to ``.vimrc``.
@@ -41,7 +47,7 @@ Screenshots
 
 Here is a screenshot of Vim running on an iPad with my configuration, and the `tokyonight-vim <https://github.com/ghifarit53/tokyonight-vim>`_ color scheme, along with the JetBrainsMono Nerd Font from `nerd-fonts <https://github.com/ryanoasis/nerd-fonts>`_
 
-.. image:: https://github.com/Majixed/vim-dotfiles/blob/main/screenshot.jpg)
+.. image:: https://github.com/Majixed/vim-dotfiles/blob/main/screenshot.jpg
    :alt: screenshot
 
 Plug-in repositories
