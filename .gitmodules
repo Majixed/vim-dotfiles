@@ -13,18 +13,18 @@
 [submodule "bundle/vim-devicons"]
 	path = bundle/vim-devicons
 	url = https://github.com/ryanoasis/vim-devicons
-[submodule "bundle/vim-startify"]
-	path = bundle/vim-startify
-	url = https://github.com/mhinz/vim-startify
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/preservim/nerdtree
-[submodule "bundle/tokyonight-vim"]
-	path = bundle/tokyonight-vim
-	url = https://github.com/ghifarit53/tokyonight-vim
 [submodule "bundle/nord-vim"]
 	path = bundle/nord-vim
 	url = https://github.com/nordtheme/vim
 [submodule "bundle/catppuccin-vim"]
 	path = bundle/catppuccin-vim
 	url = https://github.com/catppuccin/vim
+[submodule "bundle/vim-startify"]
+	path = bundle/vim-startify
+	url = https://github.com/Majixed/vim-startify
+[submodule "bundle/tokyonight-vim"]
+	path = bundle/tokyonight-vim
+	url = https://github.com/ghifarit53/tokyonight-vim

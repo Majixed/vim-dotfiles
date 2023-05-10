@@ -9,21 +9,19 @@ How to use
 Cloning
 #######
 
-Clone this repository into your home directory with:
+Clone this repository into your home directory with
 
 .. code:: sh
 
     git clone https://github.com/Majixed/vim-dotfiles --recursive
 
-And that's all.
-
-If you use ``lg2`` on a-Shell for iOS, then use:
+If you use ``lg2`` on a-Shell for iOS, then use...
 
 .. code:: sh
 
     lg2 clone https://github.com/Majixed/vim-dotfiles
 
-And then fetch submodules with:
+...and then ``cd`` into the folder and fetch submodules with
 
 .. code:: sh
 
@@ -32,25 +30,9 @@ And then fetch submodules with:
 Setup
 #####
 
-Rename the cloned folder to ``.vim``, after backing up your current ``.vim`` folder:
+Rename the cloned folder to ``.vim``, after backing up your current ``.vim`` folder
 
-.. code:: sh
-
-    mv vim-dotfiles .vim
-
-Next, create your ``.vimrc`` file in your home directory containing only this line:
-
-.. code:: vim
-
-    runtime vimrc
-
-For example, you can do:
-
-.. code:: sh
-
-    echo "runtime vimrc" > ~/.vimrc
-
-As before, don't forget to backup your current ``.vimrc`` file before running this command, if you have one. You may replace ``~/`` with the path of your home directory. Alternatively you can move the ``vimrc`` file from the new ``.vim`` directory into your home directory and rename it to ``.vimrc``.
+If you have a ``.vimrc`` file in your home directory, rename it to something else so that Vim doesn't try to process it, and you're good to go.
 
 Feel free to open an issue if you have any questions or suggestions.
 
@@ -70,7 +52,7 @@ Plug-in repositories
 - `vim-airline <https://github.com/vim-airline/vim-airline>`_
 - `vim-airline-themes <https://github.com/vim-airline/vim-airline-themes>`_
 - `vim-devicons <https://github.com/ryanoasis/vim-devicons>`_
-- `vim-startify <https://github.com/mhinz/vim-startify>`_
+- My own `fork <https://github.com/Majixed/vim-startify>`_ of `vim-startify <https://github.com/mhinz/vim-startify>`_
 - `nerdtree <https://github.com/preservim/nerdtree>`_
 - `nord-vim <https://github.com/nordtheme/vim>`_
 - `tokyonight-vim <https://github.com/ghifarit53/tokyonight-vim>`_
