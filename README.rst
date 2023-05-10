@@ -9,7 +9,7 @@ How to use
 Cloning
 #######
 
-First, clone this repository into your home directory:
+Clone this repository into your home directory with:
 
 .. code:: sh
 
@@ -17,7 +17,7 @@ First, clone this repository into your home directory:
 
 And that's all.
 
-If you use ``lg2`` on a-Shell for iOS, then:
+If you use ``lg2`` on a-Shell for iOS, then use:
 
 .. code:: sh
 
