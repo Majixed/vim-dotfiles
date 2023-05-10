@@ -32,7 +32,6 @@ set backspace=indent,eol,start
 set shiftwidth=4
 set tabstop=4
 set cursorlineopt=number
-set fillchars=eob:\ 
 set history=1000
 
 " }}}
@@ -85,7 +84,7 @@ augroup END
 
 " COLORS ----------------------------------------------------------------- {{{
 
-" Color scheme is loaded at the end to prevent unexpected issues.
 colorscheme catppuccin_macchiato
+hi EndOfBuffer guifg=bg
 
 " }}}
