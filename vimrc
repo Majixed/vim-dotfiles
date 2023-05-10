@@ -55,6 +55,8 @@ let g:splash_head = [
     \ '   \ \/ / | | ‘_ ` _ \ ',
     \ '    \  /  | | | | | | |',
     \ '     \/   |_|_| |_| |_|',
+    \ '                       ',
+    \ '                       ',
     \ ]
 let g:startify_custom_header = startify#center(g:splash_head)
 " }}}
