@@ -6,6 +6,9 @@ This is a collection of my Vim configuration files. I use these with Vim on the 
 How to use
 ----------
 
+Cloning
+#######
+
 First, clone this repository into your home directory:
 
 .. code:: sh
@@ -26,7 +29,10 @@ And then fetch submodules with:
 
    lg2 submodule update --init
 
-Then rename it to ``.vim``, after backing up your current ``.vim`` folder:
+Setup
+#####
+
+Rename the cloned folder to ``.vim``, after backing up your current ``.vim`` folder:
 
 .. code:: sh
 
