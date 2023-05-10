@@ -59,8 +59,8 @@ Plug-in repositories
 - `vim-airline-themes <https://github.com/vim-airline/vim-airline-themes>`_
 - `vim-devicons <https://github.com/ryanoasis/vim-devicons>`_
 - `vim-startify <https://github.com/mhinz/vim-startify>`_
-- `vim-javascript <https://github.com/pangloss/vim-javascript>`_
 - `nerdtree <https://github.com/preservim/nerdtree>`_
-- `python-syntax <https://github.com/vim-python/python-syntax>`_
-- `colors.vim <https://github.com/utensils/colors.vim>`_
-- `awesome-vim-colorschemes <https://github.com/rafi/awesome-vim-colorschemes>`_
+- `vim-polyglot <https://github.com/sheerun/vim-polyglot>`_
+- `nord-vim <https://github.com/nordtheme/vim>`_
+- `tokyonight-vim <https://github.com/ghifarit53/tokyonight-vim>`_
+- `catppuccin-vim <https://github.com/catppuccin/vim>`_

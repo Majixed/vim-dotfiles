@@ -103,18 +103,11 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 " PLUGINS ---------------------------------------------------------------- {{{
 
 " Vim-pathogen ---------------------------------------- {{{
-runtime autoload/pathogen.vim
+runtime bundle/vim-pathogen.git/autoload/pathogen.vim
 execute pathogen#infect()
 " }}}
 
 " Vim-startify ---------------------------------------- {{{
-" Change these to match your own directory structure.
-let g:startify_bookmarks = [
-    \ { 'v': '~/Documents/.vim/vimrc' },
-    \ { 'p': '~/Documents/.profile' },
-    \ { 't': '~/Documents/latex/main.tex' },
-    \ { 'm': '~/Documents/magic/magic.py' },
-    \ ]
 
 let g:startify_lists = [
     \ { 'header': ['   Bookmarks'],      'type': 'bookmarks' },
@@ -148,17 +141,13 @@ autocmd VimEnter *
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#whitespace#enabled = 0
 let g:airline_powerline_fonts = 1
-let g:airline_theme = 'tokyonight'
+let g:airline_theme = 'catppuccin_macchiato'
 " }}}
 
 " NERDTree -------------------------------------------- {{{
 " Invoke NERDTree automatically if Vim is started with no file argument. (disabled)
 " autocmd StdinReadPre * let s:std_in=1
 " autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | endif
-" }}}
-
-" python-syntax --------------------------------------- {{{
-let g:python_highlight_all = 1
 " }}}
 
 " }}}
@@ -206,21 +195,7 @@ set laststatus=2
 
 " COLORS ----------------------------------------------------------------- {{{
 
-" Deus color scheme setup
-let g:deus_underline = 1
-let g:deus_italic = 1
-let g:deus_italicize_comments = 1
-let g:deus_italicize_strings = 1
-
-" Nord color scheme setup
-let g:nord_underline = 1
-let g:nord_italic = 1
-let g:nord_italic_comments = 1
-
-" Tokyo Night color scheme setup
-let g:tokyonight_style = 'night'
-
 " Color scheme is loaded at the end to prevent unexpected issues.
-colorscheme tokyonight
+colorscheme catppuccin_macchiato
 
 " }}}
