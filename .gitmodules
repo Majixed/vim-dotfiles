@@ -22,9 +22,6 @@
 [submodule "bundle/tokyonight-vim"]
 	path = bundle/tokyonight-vim
 	url = https://github.com/ghifarit53/tokyonight-vim
-[submodule "bundle/vim-polyglot"]
-	path = bundle/vim-polyglot
-	url = https://github.com/sheerun/vim-polyglot
 [submodule "bundle/nord-vim"]
 	path = bundle/nord-vim
 	url = https://github.com/nordtheme/vim

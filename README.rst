@@ -72,7 +72,6 @@ Plug-in repositories
 - `vim-devicons <https://github.com/ryanoasis/vim-devicons>`_
 - `vim-startify <https://github.com/mhinz/vim-startify>`_
 - `nerdtree <https://github.com/preservim/nerdtree>`_
-- `vim-polyglot <https://github.com/sheerun/vim-polyglot>`_
 - `nord-vim <https://github.com/nordtheme/vim>`_
 - `tokyonight-vim <https://github.com/ghifarit53/tokyonight-vim>`_
 - `catppuccin-vim <https://github.com/catppuccin/vim>`_
