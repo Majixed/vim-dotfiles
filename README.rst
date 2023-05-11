@@ -1,7 +1,7 @@
 Majixed's Vim dotfiles
 ======================
 
-This is a collection of my Vim configuration files. I use these with Vim on the a-Shell terminal emulator for iOS and iPadOS. While its speed when compared to other such emulators is remarkable, it lacks quite a few tools that you would normally find on a regular terminal, such as ``git``. As ``git`` is a prerequisite of the more advanced plug-in managers like vim-plug, I resorted to using vim-pathogen, a simple but effective runtime path manager, for managing my plug-ins, along with ``lg2``, a built in alternative to ``git`` made with libgit2, for cloning the plug-in repositories. See the links at the end of the README for more information on the plug-ins I use.
+A collection of my Vim configuration files. These can be used with the `a-Shell <https://github.com/holzschu/a-shell>`_ terminal emulator for iOS as well as on Linux.
 
 How to use
 ----------
@@ -9,28 +9,31 @@ How to use
 Cloning
 #######
 
-Clone this repository into your home directory with
+``git``
+*******
 
 .. code:: sh
 
-    git clone https://github.com/Majixed/vim-dotfiles --recursive
+    $ git clone https://github.com/Majixed/vim-dotfiles --recursive
 
-If you use ``lg2`` on a-Shell for iOS, then use...
-
-.. code:: sh
-
-    lg2 clone https://github.com/Majixed/vim-dotfiles
-
-...and then ``cd`` into the folder and fetch submodules with
+``lg2`` (if you use a-Shell)
+****************************
 
 .. code:: sh
 
-   lg2 submodule update --init
+    $ lg2 clone https://github.com/Majixed/vim-dotfiles
+    $ cd vim-dotfiles
+    $ lg2 submodule update --init
 
 Setup
 #####
 
-Rename the cloned folder to ``.vim``, after backing up your current ``.vim`` folder
+Rename the cloned folder to ``.vim``, after backing up your current ``.vim`` folder, for example
+
+.. code:: sh
+
+    $ mv .vim .vim.bak
+    $ mv vim-dotfiles .vim
 
 If you have a ``.vimrc`` file in your home directory, rename it to something else so that Vim doesn't try to process it, and you're good to go.
 
