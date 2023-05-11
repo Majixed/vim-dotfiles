@@ -33,6 +33,7 @@ set shiftwidth=4
 set tabstop=4
 set cursorlineopt=number
 set history=1000
+set ttimeoutlen=0
 
 " }}}
 
